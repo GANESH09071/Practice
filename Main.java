@@ -1,6 +1,4 @@
-import java.util.*;
-
-class Problem {
+public class Problem {
     public int findPeakElement(int[] nums) {
         int left = 0;
         int right = nums.length - 1;
@@ -13,7 +11,7 @@ class Problem {
             else
                 left = mid + 1;
         }
-        return right;   // or return left; both same here
+        return right;   
     }
 }
 
@@ -21,7 +19,7 @@ public class Main {
     public static void main(String[] args) {
         Problem obj = new Problem();
 
-        // example input
+
         int[] nums = {1, 2, 3, 1};
 
         int peakIndex = obj.findPeakElement(nums);
