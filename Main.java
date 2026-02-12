@@ -1,4 +1,10 @@
+<<<<<<< HEAD
 public class Problem {
+=======
+
+
+class Problem {
+>>>>>>> 0beba97 (Keep the change)
     public int findPeakElement(int[] nums) {
         int left = 0;
         int right = nums.length - 1;
@@ -25,6 +31,6 @@ public class Main {
         int peakIndex = obj.findPeakElement(nums);
 
         System.out.println("Peak index = " + peakIndex);
-        System.out.println("Peak value = " + nums[peakIndex]);
+        System.out.println("Peak Element = " + nums[peakIndex]);
     }
 }
