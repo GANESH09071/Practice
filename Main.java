@@ -1,10 +1,5 @@
-<<<<<<< HEAD
-public class Problem {
-=======
-
 
 class Problem {
->>>>>>> 0beba97 (Keep the change)
     public int findPeakElement(int[] nums) {
         int left = 0;
         int right = nums.length - 1;
