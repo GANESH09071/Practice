@@ -3,7 +3,7 @@ public class Majority
     public static void main(String[] args) 
     {
         Majority obj = new Majority();
-    
+
         int[] nums = {3, 2, 3, 1, 3}; 
 
         int majorElement = obj.majorityElement(nums);
