@@ -21,7 +21,6 @@ public class ApplesandOranges {
           for(int i = 0;i<oranges.size();i++)
         {
              orangescount = b+oranges.get(i);
-            
             if(orangescount>=s && orangescount<=t) 
             {
                 countO++;
